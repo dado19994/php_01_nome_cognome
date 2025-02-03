@@ -25,5 +25,30 @@ var_dump(INTERO);
 var_dump(DECIMALE);
 var_dump(TESTO);
 var_dump(VERO_FALSO);
+
+
+"\n";
+
+
+// ESERICIZIO 2
+
+// Correzione dei nomi delle variabili
+$text1 = "Marco";
+$text2 = "hai";
+$text3 = "sete";
+$text4 = "?";
+$text5 = "Perchè";
+$text6 = "hai";  
+$text7 = "bevuto";
+$text8 = "tutto";
+
+// FRASE
+$frase = $text1 . " " . ucfirst($text2) . " " . $text3 . $text4 . " " . 
+         $text5 . " " . $text6 . " " . $text7 . " " . $text8 . ".";
+
+// Stampare la frase
+echo $frase;
+
+
 ?>
 
