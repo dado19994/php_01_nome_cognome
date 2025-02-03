@@ -27,8 +27,6 @@ var_dump(TESTO);
 var_dump(VERO_FALSO);
 
 
-"\n";
-
 
 // ESERICIZIO 2
 
@@ -38,12 +36,12 @@ $text2 = "hai";
 $text3 = "sete";
 $text4 = "?";
 $text5 = "Perchè";
-$text6 = "hai";  
+$text6 = "$text2";  
 $text7 = "bevuto";
 $text8 = "tutto";
 
 // FRASE
-$frase = $text1 . " " . ucfirst($text2) . " " . $text3 . $text4 . " " . 
+$frase = $text1 . " " . $text2 . " " . $text3 . $text4 . " " . 
          $text5 . " " . $text6 . " " . $text7 . " " . $text8 . ".";
 
 // Stampare la frase
